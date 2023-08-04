@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRCTraining</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navbar start -->
+    <div class="container" id="menu">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <div class="container-fluid">
+              <a class="navbar-brand fs-3" href="#">CRCTraining</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse fs-5" id="navbarSupportedContent" >
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../myportfolio.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#course">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#internship">Internship</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Coding</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Assignments
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../timetable.html">Day1</a></li>
+                      <li><a class="dropdown-item" href="../mywebsite.html">Day2</a></li>
+                      <li><a class="dropdown-item" href="../layout/bootstrapnav.html">Day3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- navbar end -->
+    <!-- banner start -->
+    <div class="container mt-2" id="banner">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../image/1.jpg" class="d-block w-100" alt="pic1" height="400px" data-bs-interval="0">
+              </div>
+              <div class="carousel-item">
+                <img src="../image/2.jpeg" class="d-block w-100" alt="pic2" height="400px" data-bs-interval="0" >
+              </div>
+              <div class="carousel-item">
+                <img src="../image/3.jpeg" class="d-block w-100" alt="pic3" height="400px" data-bs-interval="0" >
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <!-- banner end -->
+    <!-- course setion start -->
+    <div class="container mt-2 bg-primary" id="course">
+        <h1 style="text-align: center;">Courses</h1>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card" >
+                <img src="../image/ds.jpeg" class="card-img-top" alt="data Science" height="260px">
+                <div class="card-body">
+                  <h5 class="card-title">Data Science-Machine Learnig</h5>
+                  <p class="card-text">Complete Data Science Training: Mathematics, Statistics, Python, Advanced Statistics in Python, Machine & Deep Learning</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="../image/java.jpeg" class="card-img-top" alt="java" height="260px">
+                <div class="card-body">
+                  <h5 class="card-title">Java Programing</h5>
+                  <p class="card-text">Java Programming for Beginners to Java Object Oriented Programming. Core Java + REST API with Spring Boot. Java 8 to 16.</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card " >
+                <img src="../image/dsa.jpeg" class="card-img-top" alt="data structure" height="260px">
+                <div class="card-body">
+                  <h5 class="card-title">Data Structure & Algorithm</h5>
+                  <p class="card-text">Learn about Arrays, Linked Lists, Trees, Hashtables, Stacks, Queues, Heaps, Sort algorithms and Search algorithms</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- course setion end -->
+    <!-- internship section start -->
+    <div class="container mt-2 bg-primary" id="internship">
+      <h1 style="text-align: center;">Internships</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card bg-dark text-white">
+            <img src="../image/datascience.jpg" class="card-img" alt="..." height="300px">
+            <div class="card-img-overlay">
+              <h5 class="card-title text-danger">Data Science Internship</h5>
+              <p class="card-text">This is a 6 weeks project based  Data-Science internship.</p>
+              <p class="card-text">Start date:01 July 2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card bg-dark text-white">
+            <img src="../image/frontend.jpg" class="card-img" alt="..." height="300px">
+            <div class="card-img-overlay">
+              <h5 class="card-title text-danger">Frontend Development Internship</h5>
+              <p class="card-text">It is a 6 weeks project based internship program.this internship is both trainging and project based.</p>
+              <p class="card-text">Start date:03 July 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- internship section end -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          CRC Training
+        </a>
+        
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+      </footer>
+    </div>
+</body>
+</html>

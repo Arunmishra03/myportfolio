@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+   <script>
+    function myFunction(){
+        alert("hello");
+        let name = document.getElementById('name').value;
+        let y=document.getElementById('h2');
+        document.getElementById('h2').innerHTML=y+" "+name;
+    };
+    function exprn(){
+        let exp=document.getElementById("expression").value;
+        const a=eval(exp);
+        document.getElementById("h1").innerHTML="Answer="+" "+a;
+        
+    }
+   </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-3" href="#">CRCTraining</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse fs-5" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../myportfolio.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#week1">Week1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#week2">Week2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#week3">Week3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#week4">Week4</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- <label for="name">Name</label> -->
+    <!-- <input type="text" id="name"><br> -->
+    <!-- <button onclick="myFunction()">Click me</button><br> -->
+    <h2 id="h2">Welcome</h2>
+    <label for="expression">expression</label>
+    <input type="text" id="expression">
+    <button onclick="exprn()">Solve</button>
+    <h2 id="h1"></h2>
+    
+</body>
+</html>
